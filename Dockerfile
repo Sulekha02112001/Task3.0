@@ -7,4 +7,4 @@ COPY  sulekha.html /var/lib/html/
 
 EXPOSE 80
 
-CMD ["usr[D[D[D/[C[C[D[Dusr[C[D/sbin/httpd","-D",FOREGROUND"]
+CMD ["usr/sbin/httpd","-D",FOREGROUND"]
